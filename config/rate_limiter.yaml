@@ -1,0 +1,6 @@
+rate_limit:
+  max_requests_per_minute: 800
+  enabled: true
+  rules:
+    - path_pattern: "/api/**"
+    - exempted_ips: []
